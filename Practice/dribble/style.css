@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #333333;
+    height: 56px;
+}
+
+header .left img{
+    margin:10px 10px;
+    padding: 5px; 
+    height: 36px;
+}
+
+header .navbar>li{
+    color: #999999;
+    margin: 0 10px;
+    line-height: 56px;
+    cursor: pointer;
+}
+
+a{
+    color: #9999;
+    text-decoration: none;
+}
+
+.right input{
+    outline: none;
+    border: none;
+    width: 210px;
+    height:25px;
+    border-radius: 3px;
+}
+
+.left{
+    margin-left: 25px;
+}
+
+.right{
+    margin-right: 25px;
+}
+
+.right li span{
+    background: linear-gradient(45deg, #e47b49 0%, #ea4c89 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.right form{
+    position: relative;
+}
+
+.fa-search{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.right form input[placeholder]{
+    text-indent: 25px;
+}
+
+header .fas{
+    font-size:1.2rem ;
+}
+
+header .sub{
+    background-color: #333333;
+    border-radius:0 0 5px 5px;
+    line-height: 2.5em;
+    position: absolute;
+    display: none;
+    width: 170px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+header .sub a{
+    padding: 10px;
+}
+
+header .navbar>li:hover .nav-a{
+    color: white;
+}
+
+header .navbar>li:hover .sub{
+    display: block;
+}
+
+header .sub li:hover{
+    color: white;
+    background-color: gray;
+}
+
+header .sub li:hover a{
+    color: white;
+}
+
+.sub-header{
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5 ;
+    height: 50px;
+}
+
+.sub-header li{
+    display: inline-block;
+    margin: 13px 10px ;
+}
+
+.sub-header li .following{
+    color: #333333;
+}
+
+.container{
+    width: 1600px;
+    margin: 100px 150px;
+}
+
+.card-top{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.card{
+    width: 350px;
+    display: inline-block;
+    margin: 0 17px 30px 17px;
+
+}
+
+.card .info{
+    text-align: right;
+    color: #999;
+    font-size: 1.2em;
+}
+
+.author img{
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.author span{
+    color: #3d8cb9;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hover-info{
+    font-size: 1.7em;
+    position: absolute;
+    top: 10px;
+    height: 350px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333333;
+    display: none;
+}
+
+.container .card-top:hover .hover-info{
+    display: flex;
+}
+
+.hover-info h4{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.loadmore{
+    height: 50px;
+    background-color: #aaa;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+.loadmore:hover{
+    background-color: rgb(138, 132, 132);
+}
+
+.footer-top{
+    display: flex;
+}
+
+footer{
+    width:1600px;
+    margin: 0 auto;
+}
+
+.list ul{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.job{
+    display:flex;
+    align-items:center;
+    margin-bottom: 15px;
+}
+
+.job img{
+    height:25px;
+    margin-right:25px ;
+}
+
+ .top, .bottom{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.footer-card .top img{
+    height:100px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-card .bottom img{
+    height: 56px;
+}
+
+.footer-card .bottom {
+    display: flex;
+}
+
+.footer-top .one{
+    width: 450px;
+}
+
+.footer-top .two{
+    width: 300px;
+}
+
+.footer-top .three{
+    width: 250px;
+}
+
+.footer-top .four{
+    width: 300px;
+}
+
+.footer-top .five{
+    width: 350px;
+}
+
+.footer-top h4{
+    margin-bottom: 10px;
+}
+
+.footer-card .top h6{
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer-wrap{
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5 ;
+}
+
+.footer-top{
+    color: gray;
+    padding-top: 50px;
+}
+
+.footer-card .bottom h6{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer .footer-bottom{
+    margin: 20px 0 40px 0;
+}
+
+footer .footer-bottom span{
+    margin-right: 70px;
+    color: gray;
+} 
+
+.footer-top i{
+    font-size: 2.5rem;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    header .gone{
+        display: none;
+    }
+}

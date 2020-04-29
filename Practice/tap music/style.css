@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.app{   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pads{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.pads > div{
+    height: 200px;
+    width: 100px;
+    height: 200px;
+    flex: 1;
+}
+
+.pad1{
+    background-color: rgb(45, 182, 201); 
+}
+
+.pad2{
+    background-color: rgb(224, 36, 36);
+}
+
+.pad3{
+    background-color: rgb(54, 214, 206);
+}
+
+.pad4{
+    background-color: rgb(149, 89, 226);
+}
+
+.pad5{
+    background-color: rgb(204, 54, 218);
+}
+
+.pad6{
+    background-color: rgb(213, 231, 50);
+}
+
+.pad1:hover{
+  opacity: 0.5;
+}
+
+.pad2:hover{
+  opacity: 0.5;
+}
+
+.pad3:hover{
+  opacity: 0.5;
+}
+
+.pad4:hover{
+  opacity: 0.5;
+}
+
+.pad5:hover{
+  opacity: 0.5;
+}
+
+.pad6:hover{
+  opacity: 0.5;
+}
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+    z-index:-1 ;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}
+
+.visual>div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    buttom:0%;
+}
