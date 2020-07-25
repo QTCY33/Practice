@@ -1,8 +1,8 @@
 window.addEventListener("load", () => {
-    var sounds = document.querySelectorAll(".sound");
-    var pads = document.querySelectorAll(".pads div");
-    var visual = document.querySelector(".visual");
-    var color = [
+    const sounds = document.querySelectorAll(".sound");
+    const pads = document.querySelectorAll(".pads div");
+    const visual = document.querySelector(".visual");
+    const color = [
         "rgb(45, 182, 201)",
         "rgb(224, 36, 36)",
         "rgb(54, 214, 206)",
@@ -19,8 +19,8 @@ window.addEventListener("load", () => {
         });
     });
 
-    var createBubble = index =>{
-    var bubble = document.createElement("div");
+    const createBubble = index =>{
+    const bubble = document.createElement("div");
     visual.appendChild(bubble);
     bubble.style.backgroundColor = color[index];
     bubble.style.animation = "jump 1s ease";
